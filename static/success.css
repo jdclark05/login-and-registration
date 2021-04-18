@@ -1,0 +1,40 @@
+.btn-group {
+    width: 100%;
+    height: 100%;
+}
+
+.button-resize {
+    width: 100%;
+    height: 25px;
+    background-color: rgb(200, 37, 37);
+    color: white;
+}
+
+.container-fluid {
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.3) 10px 10px 10px;
+}
+
+body {
+     /* Safari 4-5, Chrome 1-9 */
+     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#17a2b8), to(#00363e));
+    
+     /* Safari 5.1+, Chrome 10+ */
+     background: -webkit-radial-gradient(#17a2b8), to(#00363e);
+   
+     /* Firefox 3.6+ */
+     background: -moz-radial-gradient(circle ,#17a2b8), to(#00363e);
+   
+     /* IE 10 */
+     background: -ms-radial-gradient(circle, #17a2b8), to(#00363e);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+h4 {
+    font-size: 1rem;
+}
